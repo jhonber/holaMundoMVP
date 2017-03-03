@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-require('./routes/recicladores.js')(app, 'reciclador');
+require('./routes/recicladores.js')(app, '/reciclador');
 
 
 // catch 404 and forward to error handler
