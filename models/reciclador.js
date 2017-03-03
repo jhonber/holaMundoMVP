@@ -7,8 +7,9 @@ var userSchema = mongoose.Schema({
     required: true,
     unique : true
   },
+
   name : String,
   lastname: String
 });
 
-module.exports = mongoose.model('Reciclador',userSchema);
+module.exports = mongoose.model('Reciclador', userSchema);
