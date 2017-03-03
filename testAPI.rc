@@ -8,8 +8,8 @@ POST :app/reciclador
 Content-Type: application/json
 
 {
-  "id" : "2",
-  "name" : "leiver",
+  "id" : "3",
+  "name" : "pepito",
   "lastname" : "perez"
 }
 
